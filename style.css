@@ -1,0 +1,100 @@
+/* General Reset and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: #22313f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* HTML Font Size */
+html {
+  font-size: 10px;
+}
+
+/* Section Styling */
+.section {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Heading Styling */
+.section h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+
+/* Turn Display Styling */
+.section .turn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #22b2da;
+}
+
+/* Turn Indicator Styling */
+.section .turn span {
+  color: #f70776;
+  font-size: 3rem;
+  margin-left: 0.5rem;
+}
+
+/* Buttons Grid Styling */
+.section .buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* Button Styling */
+.section .buttons button {
+  height: 10rem;
+  width: 10rem;
+  font-size: 6rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* Result Display Styling */
+.section .result {
+  display: none;
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+/* Reset Button Styling */
+.section .reset {
+  margin-block: 1.5rem;
+  font-size: 2.5rem;
+  padding: 0.3rem 1rem;
+  border: none;
+  background-color: #f70776;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+/* Reset Button Active State */
+.section .reset:active {
+  scale: 0.95;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 760px) {
+  html {
+    font-size: 9px;
+  }
+}
